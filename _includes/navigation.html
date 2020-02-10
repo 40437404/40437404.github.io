@@ -1,7 +1,9 @@
 <header>
   <div class="container">
-    <h1 class="logo">LOGO</h1>
     <nav>
+      <ul class="logo">
+        <li><a href="/">MY PERSONAL BLOG</a></li>
+      </ul>
       <ul class="nav_links">
         {% for item in site.data.navigation %}
           <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
