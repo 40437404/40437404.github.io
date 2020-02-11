@@ -1,4 +1,5 @@
 // Colors
+$white:               #fff;
 $yellow:              #fce473;
 $pink:                #c71585;
 $green:               #32cd32;
@@ -11,10 +12,19 @@ $nav-color:       $blue;
 $body-color:      $lightblack;
 
 body {
+  color: $white;
 	margin: 0;
 	background: $body-color;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 800;
+  font-weight: 800;
+  a {
+    color: $blue;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  a:hover {
+    color: $yellow;
+  }
 }
 
 .container {
