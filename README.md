@@ -1,5 +1,5 @@
 # My Personal Blog
-It's my personal blog. It is currently not worlking and I am trying to make it right.
+It's my personal blog. It is currently not working and I am trying to make it right.
 
 * Travis Build [![Build Status](https://travis-ci.com/40437404/40437404.github.io.svg?branch=gh-pages)](https://travis-ci.com/40437404/40437404.github.io)
 
